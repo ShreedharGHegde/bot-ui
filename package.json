@@ -1,0 +1,39 @@
+{
+  "name": "github-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-chat-widget": "^2.1.4-1",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+"@babel/plugin-proposal-class-properties": "^7.1.0",
+"@babel/preset-env": "^7.1.0",
+"@babel/preset-es2016": "^7.0.0-beta.53",
+"@babel/preset-react": "^7.0.0",
+"@babel/preset-stage-0": "^7.0.0",
+"@babel/register": "^7.0.0",
+"babel-cli": "^6.26.0",
+"babel-loader": "^8.0.1",
+"babel-minify-webpack-plugin": "^0.2.0",
+"babel-plugin-transform-class-properties": "^6.24.1"
+  }
+}
